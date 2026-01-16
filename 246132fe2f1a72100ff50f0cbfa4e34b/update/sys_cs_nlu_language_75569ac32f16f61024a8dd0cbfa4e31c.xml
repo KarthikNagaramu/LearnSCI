@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_nlu_language">
+    <sys_cs_nlu_language action="INSERT_OR_UPDATE">
+        <enabled>false</enabled>
+        <language display_value="Italian">fd569ac32f16f61024a8dd0cbfa4e31b</language>
+        <sys_class_name>sys_cs_nlu_language</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-12 08:01:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>75569ac32f16f61024a8dd0cbfa4e31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="First Global App" source="246132fe2f1a72100ff50f0cbfa4e34b">246132fe2f1a72100ff50f0cbfa4e34b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Global App">246132fe2f1a72100ff50f0cbfa4e34b</sys_scope>
+        <sys_update_name>sys_cs_nlu_language_75569ac32f16f61024a8dd0cbfa4e31c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-12 08:01:02</sys_updated_on>
+    </sys_cs_nlu_language>
+</record_update>

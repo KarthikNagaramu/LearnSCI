@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_upgrade_plan_item">
+    <sys_upgrade_plan_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_parameters/>
+        <auto_generated>false</auto_generated>
+        <customization_version/>
+        <id>220c1cc4c3f36110fc97070e9140ddc7</id>
+        <last_published/>
+        <last_refreshed/>
+        <name>Now Assist for IT Service Management (ITSM)</name>
+        <notes/>
+        <scope>sn_itsm_gen_ai</scope>
+        <source/>
+        <state/>
+        <status_message/>
+        <sys_class_name>sys_upgrade_plan_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-13 10:54:37</sys_created_on>
+        <sys_id>56a704a32f9aba1024a8dd0cbfa4e380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Now Assist for IT Service Management (ITSM)</sys_name>
+        <sys_package display_value="First Global App" source="246132fe2f1a72100ff50f0cbfa4e34b">246132fe2f1a72100ff50f0cbfa4e34b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Global App">246132fe2f1a72100ff50f0cbfa4e34b</sys_scope>
+        <sys_update_name>sys_upgrade_plan_item_56a704a32f9aba1024a8dd0cbfa4e380</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-13 10:54:37</sys_updated_on>
+        <type>application</type>
+        <upgrade_plan/>
+        <version>12.0.6</version>
+    </sys_upgrade_plan_item>
+</record_update>

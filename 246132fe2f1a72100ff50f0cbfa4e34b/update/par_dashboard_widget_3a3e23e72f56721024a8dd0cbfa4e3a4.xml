@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">325d27672f56721024a8dd0cbfa4e3b3</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1jet9arj5ddjpuh56fss","filterName":"Problem","filterComponentType":"singleselect","datasource":{"type":"table","payload":{"table":"problem","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"problem_id","table":"incident","primaryKey":"sys_id"}}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"ba5d27672f56721024a8dd0cbfa4e394","isDashboard":true,"isGroup":false,"value":[]}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-14 03:42:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a3e23e72f56721024a8dd0cbfa4e3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="First Global App" source="246132fe2f1a72100ff50f0cbfa4e34b">246132fe2f1a72100ff50f0cbfa4e34b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Global App">246132fe2f1a72100ff50f0cbfa4e34b</sys_scope>
+        <sys_update_name>par_dashboard_widget_3a3e23e72f56721024a8dd0cbfa4e3a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-14 03:42:00</sys_updated_on>
+        <visualization/>
+        <w>7</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>
