@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="362418d62f9632100ff50f0cbfa4e3d8" label="Search Event" max_length="40" name="sys_search_event" type="collection">
+        <element label="Generative AI Log IDs (JSON)" max_length="8192" name="generative_ai_log" type="json"/>
+        <element attributes="encode_utf8=false" label="Now Assist Deployment Channel" max_length="32" name="now_assist_deployment_channel_id" reference="sys_now_assist_deployment_channel" type="reference"/>
+        <element attributes="encode_utf8=false" label="Assistant" max_length="32" name="now_assist_deployment_id" reference="sys_now_assist_deployment" type="reference"/>
+        <index name="index">
+            <element name="now_assist_deployment_id"/>
+        </index>
+    </element>
+</database>

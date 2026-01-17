@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="a68cd49e2f1e32100ff50f0cbfa4e3fb" label="Auto-Resolution Configuration" max_length="40" name="sys_cs_auto_resolution_configuration" type="collection">
+        <element attributes="encode_utf8=false" label="Catalog submitted SMS" max_length="32" name="catalog_sms" reference="notify_sms_template" reference_qual="javascript:'table=' + current.target_table_name" type="reference"/>
+        <element attributes="encode_utf8=false" label="Initial recommendation SMS" max_length="32" name="initial_recommendation_sms" reference="notify_sms_template" reference_qual="javascript:'table=' + current.target_table_name" type="reference"/>
+        <element attributes="encode_utf8=false" label="Notify SMS phone" max_length="32" name="notify_sms_phone" reference="notify_number" type="reference"/>
+        <index name="index">
+            <element name="catalog_sms"/>
+        </index>
+        <index name="index2">
+            <element name="initial_recommendation_sms"/>
+        </index>
+        <index name="index3">
+            <element name="notify_sms_phone"/>
+        </index>
+    </element>
+</database>

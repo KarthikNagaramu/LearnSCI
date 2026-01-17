@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Sp_approval_configuration</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Sp_approval_configuration</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">c364a4522f1232100ff50f0cbfa4e3c8</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-13 09:43:18</sys_created_on>
+        <sys_id>e9577f132f12ba1024a8dd0cbfa4e37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sp_approval_configuration</sys_name>
+        <sys_package display_value="First Global App" source="246132fe2f1a72100ff50f0cbfa4e34b">246132fe2f1a72100ff50f0cbfa4e34b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Global App">246132fe2f1a72100ff50f0cbfa4e34b</sys_scope>
+        <sys_update_name>sys_wizard_answer_e9577f132f12ba1024a8dd0cbfa4e37a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-13 09:43:18</sys_updated_on>
+        <table/>
+        <target_url>sp_approval_configuration.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

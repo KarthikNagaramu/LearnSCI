@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="domain_master=activity_execution" db_object_id="5b8737932f12ba1024a8dd0cbfa4e3a4" label="Activity Conversation M2M" max_length="40" name="sys_pd_activity_conversation_m2m" read_only="true" type="collection">
+        <element attributes="encode_utf8=false" label="Conversation Id" max_length="32" name="conversation_id" read_only="true" reference="sys_cs_conversation" type="reference"/>
+        <element attributes="encode_utf8=false" label="Activity Execution" max_length="32" name="activity_execution" read_only="true" reference="sys_pd_activity_context" type="reference"/>
+        <index name="index">
+            <element name="activity_execution"/>
+        </index>
+        <index name="index2">
+            <element name="conversation_id"/>
+        </index>
+    </element>
+</database>

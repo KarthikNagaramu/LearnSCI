@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="INSERT_OR_UPDATE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum/>
+        <content display_value="Install from ServiceNow Store">f36991743d623010f877f3d24d675c37</content>
+        <effective_weight>1</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>0</previous_status>
+        <progress>0</progress>
+        <related_log_entry display_value="2026-01-13 22:19:49">aa52d0732f9a721024a8dd0cbfa4e38d</related_log_entry>
+        <status>0</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-14 06:19:49</sys_created_on>
+        <sys_id>a652d0732f9a721024a8dd0cbfa4e38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0</sys_name>
+        <sys_package display_value="First Global App" source="246132fe2f1a72100ff50f0cbfa4e34b">246132fe2f1a72100ff50f0cbfa4e34b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Global App">246132fe2f1a72100ff50f0cbfa4e34b</sys_scope>
+        <sys_update_name>gsw_status_of_content_a652d0732f9a721024a8dd0cbfa4e38e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-14 06:19:49</sys_updated_on>
+    </gsw_status_of_content>
+</record_update>

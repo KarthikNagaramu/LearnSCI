@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" audit="true" db_object_id="b734541a2f9632100ff50f0cbfa4e3c6" extends="sys_metadata" label="SP Approval Configuration" max_length="40" name="sp_approval_configuration" type="collection">
+        <element attributes="is_multi_text=false" dependent="table" hint="Fields used to build the knowledge search query." label="KB search fields" max_length="1000" name="kb_search_fields" type="field_list"/>
+        <element attributes="condition_builder=v2,readable=true" dependent="table" hint="records present in the condition if met will generate Approval checklist" label="Additional Condition" max_length="4000" name="conditions" type="conditions"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="always" hint="Controls when the checklist is generated." label="Approval checklist" max_length="40" name="approval_checklist" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Always" sequence="1" value="always"/>
+                <element inactive_on_update="false" label="Never" sequence="2" value="never"/>
+                <element inactive_on_update="false" label="Conditionally" sequence="3" value="conditionally"/>
+            </choice>
+        </element>
+    </element>
+</database>

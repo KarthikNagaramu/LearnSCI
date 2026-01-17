@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="6b8737932f12ba1024a8dd0cbfa4e3ee" extends="sys_metadata" label="Knowledge Graph Use Case Mapping" max_length="40" name="knowledge_graph_use_case_mapping" type="collection">
+        <element attributes="encode_utf8=false" label="Knowledge Graph Schema" mandatory="true" max_length="32" name="knowledge_graph_schema" reference="sys_meta_graph" reference_qual="use_dictionary=false^ORuse_dictionaryISEMPTY^ORmodelNOT LIKEextension,contribution^EQ" type="reference"/>
+        <element dependent="use_case_table" label="Use Case Record" mandatory="true" max_length="32" name="use_case_record" type="document_id"/>
+        <element attributes="allow_public=true,base_start=true,tableChoicesScript=global.ApplicableTablesForUseCase" label="Use Case Table" mandatory="true" max_length="80" name="use_case_table" table_reference="true" type="table_name"/>
+        <index name="index">
+            <element name="knowledge_graph_schema"/>
+        </index>
+        <index name="index2">
+            <element name="use_case_record"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_df_table>false</is_df_table>
+        <is_extendable>false</is_extendable>
+        <label>On-Call Message Number</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>on_call_message_number</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-13 09:43:22</sys_created_on>
+        <sys_id>2e57bf132f12ba1024a8dd0cbfa4e3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On Call Message Number</sys_name>
+        <sys_package display_value="First Global App" source="246132fe2f1a72100ff50f0cbfa4e34b">246132fe2f1a72100ff50f0cbfa4e34b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Global App">246132fe2f1a72100ff50f0cbfa4e34b</sys_scope>
+        <sys_update_name>sys_db_object_2e57bf132f12ba1024a8dd0cbfa4e3b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-13 09:43:22</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="First Global App">246132fe2f1a72100ff50f0cbfa4e34b</claim_owner_scope>
+        <claim_timestamp>19bc9b831ee0000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_2e57bf132f12ba1024a8dd0cbfa4e3b7</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>First Global App</previous_claim_name>
+        <previous_claim_scope>246132fe2f1a72100ff50f0cbfa4e34b</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-17 02:10:50</sys_created_on>
+        <sys_id>e4263ee02f6276100ff50f0cbfa4e3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-17 02:10:50</sys_updated_on>
+    </sys_claim>
+</record_update>

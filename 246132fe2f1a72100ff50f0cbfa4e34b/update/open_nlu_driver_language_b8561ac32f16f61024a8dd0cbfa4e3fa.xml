@@ -2,7 +2,7 @@
     <open_nlu_driver_language action="INSERT_OR_UPDATE">
         <code>fq</code>
         <dialog_acts_supported>false</dialog_acts_supported>
-        <driver display_value="">64c023c17300330021a044764df6a70e</driver>
+        <driver display_value="ServiceNow NLU">64c023c17300330021a044764df6a70e</driver>
         <driver_codes>fq</driver_codes>
         <language>Canadian French</language>
         <sys_class_name>open_nlu_driver_language</sys_class_name>

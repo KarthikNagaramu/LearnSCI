@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2e57bf132f12ba1024a8dd0cbfa4e3b7" label="On-Call Message Number" max_length="40" name="on_call_message_number" read_only="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Phone number" max_length="40" name="phone_number" type="string"/>
+        <element label="Context ID" max_length="32" name="context_id" type="GUID"/>
+        <element dependent="table" label="Source" max_length="32" name="source" type="document_id"/>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element attributes="base_start=true" label="Table" max_length="80" name="table" type="table_name"/>
+        <element label="Message number" max_length="40" name="message_number" type="integer"/>
+        <index name="index" unique="true">
+            <element name="message_number"/>
+            <element name="phone_number"/>
+        </index>
+        <index name="index2">
+            <element name="source"/>
+        </index>
+        <index name="index3">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

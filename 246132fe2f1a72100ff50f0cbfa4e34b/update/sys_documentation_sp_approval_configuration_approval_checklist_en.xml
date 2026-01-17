@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="approval_checklist" label="Approval checklist" language="en" table="sp_approval_configuration">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>approval_checklist</element>
+            <help/>
+            <hint>Controls when the checklist is generated.</hint>
+            <label>Approval checklist</label>
+            <language>en</language>
+            <name>sp_approval_configuration</name>
+            <plural>Approval checklists</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-13 09:43:18</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Approval checklist</sys_name>
+            <sys_package display_value="First Global App" source="246132fe2f1a72100ff50f0cbfa4e34b">246132fe2f1a72100ff50f0cbfa4e34b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="First Global App">246132fe2f1a72100ff50f0cbfa4e34b</sys_scope>
+            <sys_update_name>sys_documentation_sp_approval_configuration_approval_checklist_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-13 09:43:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

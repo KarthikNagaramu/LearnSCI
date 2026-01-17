@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="domain_master=contact_attempt" db_object_id="58a614de2f1a32100ff50f0cbfa4e311" label="On-Call Escalation Notification" max_length="40" name="on_call_escalation_comm" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Conference service provider" max_length="40" name="conference_service_provider" type="string"/>
+        <element label="Phone number" max_length="40" name="phone_number" type="ph_number"/>
+    </element>
+</database>

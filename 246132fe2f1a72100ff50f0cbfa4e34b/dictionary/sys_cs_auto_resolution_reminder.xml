@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="1b8c589e2f1e32100ff50f0cbfa4e362" label="Auto-Resolution Reminder" max_length="40" name="sys_cs_auto_resolution_reminder" type="collection">
+        <element attributes="encode_utf8=false" label="SMS template" max_length="32" name="sms" reference="notify_sms_template" type="reference"/>
+        <index name="index">
+            <element name="sms"/>
+        </index>
+    </element>
+</database>
